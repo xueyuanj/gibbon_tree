@@ -10,6 +10,11 @@ $ esearch -db bioproject -query "PRJNA232723" |elink -target sra|efetch -format 
 
 $python parse.srr.py
 
+##
+##
+
+##Trim adapter
+
 ##Install cutadapt on cluster
 
 $ cd ~/work
