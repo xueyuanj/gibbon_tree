@@ -21,3 +21,15 @@ $ conda create -y --prefix $PWD
 $ source activate $PWD
 
 $ conda install -c bioconda cutadapt
+
+##Afterwards, move the app to desired places
+
+##Download SRR files, run cutadapt on them
+
+$ bash SRX590181.bash
+
+##Use SRX590181.sh to submit the job on the cluster
+
+##For the other seven gibbon samples, copy the files and run as the previous one
+
+$ bash copyfile.bash
