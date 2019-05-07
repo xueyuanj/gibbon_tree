@@ -4,6 +4,12 @@
 
 $ esearch -db bioproject -query "PRJNA232723" |elink -target sra|efetch -format docsum|\xtract -pattern DocumentSummary -ACC @acc -block DocumentSummary -element "&ACC" > gibbon.total.run.txt
 
+##Parse the file into samples
+
+##File name as individual sample name
+
+$python parse.srr.py
+
 ##Install cutadapt on cluster
 
 $ cd ~/work
