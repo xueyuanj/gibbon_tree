@@ -44,3 +44,11 @@ $ bash SRX590181.bash
 ##For the other seven gibbon samples, copy the files and run as the previous one
 
 $ bash copyfile.bash
+
+##Run alignment
+
+##Get the reference genome
+
+##For the two NLE individuals: SRX590181, SRX590192, run BWA first 
+
+##For the rest, directly run stampy
