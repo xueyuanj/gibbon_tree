@@ -47,8 +47,8 @@ $ bash copyfile.bash
 
 ##Run alignment
 
-##Get the reference genome
+##Get the reference genome Nleu 3.0
 
-##For the two NLE individuals: SRX590181, SRX590192, run BWA first 
+$wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/146/795/GCF_000146795.2_Nleu_3.0/GCF_000146795.2_Nleu_3.0_genomic.fna.gz
 
-##For the rest, directly run stampy
+##Index the reference genome
