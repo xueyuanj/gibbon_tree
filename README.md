@@ -45,6 +45,9 @@ $ bash SRX590181.bash
 
 $ bash copyfile.bash
 
+##
+##
+
 ##Run alignment
 
 ##Get the reference genome Nleu 3.0
@@ -52,3 +55,8 @@ $ bash copyfile.bash
 $wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/146/795/GCF_000146795.2_Nleu_3.0/GCF_000146795.2_Nleu_3.0_genomic.fna.gz
 
 ##Index the reference genome
+
+$ ./bwa index GCF_000146795.2_Nleu_3.0_genomic.fna 
+
+
+
