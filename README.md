@@ -58,5 +58,8 @@ $wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/146/795/GCF_000146795.2_Nle
 
 $ ./bwa index GCF_000146795.2_Nleu_3.0_genomic.fna 
 
+##Align with bwa mem
+
+$bash SRX590181.align.bash
 
 
