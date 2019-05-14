@@ -75,6 +75,8 @@ $bash SRX590181.align.bash
 
 java -jar picard.jar CreateSequenceDictionary R=GCF_000146795.2_Nleu_3.0_genomic.fna O=GCF_000146795.2_Nleu_3.0_genomic.fna.dict
 
+$bash SRX590181.clean.bash
+
 ##The steps include:
 
 1)sort sam files, create bam files, index bam files
@@ -86,4 +88,8 @@ java -jar picard.jar CreateSequenceDictionary R=GCF_000146795.2_Nleu_3.0_genomic
 4)remove PRC duplicates
 
 5)further clean with CleanSam
+
+##
+##
+## Generate .fasta files for each species
 
