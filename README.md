@@ -63,3 +63,15 @@ $ ./bwa index GCF_000146795.2_Nleu_3.0_genomic.fna
 $bash SRX590181.align.bash
 
 
+##
+##
+
+##Make the files ready for GATK and Picard
+
+##Generate .fai and .dict files for the reference genome
+
+./samtools faidx GCF_000146795.2_Nleu_3.0_genomic.fna
+
+java -jar picard.jar CreateSequenceDictionary R=GCF_000146795.2_Nleu_3.0_genomic.fna O=GCF_000146795.2_Nleu_3.0_genomic.fna.dict
+
+##Follow the steps to clean the sam/bam files 
