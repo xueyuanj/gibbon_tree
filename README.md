@@ -1,6 +1,6 @@
-##Download the SRR runs for the project
+## Download the SRR runs for the project
 
-##8 gibbon individuals
+##8 gibbon individuals, 5 species
 
 $ esearch -db bioproject -query "PRJNA232723" |elink -target sra|efetch -format docsum|\xtract -pattern DocumentSummary -ACC @acc -block DocumentSummary -element "&ACC" > gibbon.total.run.txt
 
@@ -13,7 +13,7 @@ $python parse.srr.py
 ##
 ##
 
-##Trim adapter
+## Trim adapter
 
 ##Install cutadapt on cluster
 
@@ -48,7 +48,7 @@ $ bash copyfile.bash
 ##
 ##
 
-##Run alignment
+## Run alignment
 
 ##Get the reference genome Nleu 3.0
 
@@ -65,6 +65,7 @@ $bash SRX590181.align.bash
 
 ##
 ##
+## Clean the sam/bam files 
 
 ##Make the files ready for GATK and Picard
 
@@ -74,4 +75,4 @@ $bash SRX590181.align.bash
 
 java -jar picard.jar CreateSequenceDictionary R=GCF_000146795.2_Nleu_3.0_genomic.fna O=GCF_000146795.2_Nleu_3.0_genomic.fna.dict
 
-##Follow the steps to clean the sam/bam files 
+
