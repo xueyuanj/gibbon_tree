@@ -12,7 +12,7 @@ $python parse.srr.py
 
 ##
 ##
-For the purpose of parallel process, the same scripts are running simultaneously for each sample (individual)
+For the purpose of parallel processing, the same scripts are running simultaneously for each sample (individual)
 
 The SRX IDs are in srxfile.name
 
