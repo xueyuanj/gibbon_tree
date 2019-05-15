@@ -75,13 +75,16 @@ $bash SRX590181.align.bash
 
 java -jar picard.jar CreateSequenceDictionary R=GCF_000146795.2_Nleu_3.0_genomic.fna O=GCF_000146795.2_Nleu_3.0_genomic.fna.dict
 
-$bash SRX590181.clean.bash
 
 ##The steps include:
+
+$bash SRX590181.clean.bash
 
 1)sort sam files, create bam files, index bam files
 
 2)add read groups
+
+$ bash SRX590181.mergesample.bash
 
 3)merge files within samples
 
