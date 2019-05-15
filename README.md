@@ -78,15 +78,17 @@ java -jar picard.jar CreateSequenceDictionary R=GCF_000146795.2_Nleu_3.0_genomic
 
 ##The steps include:
 
-$bash SRX590181.clean.bash
-
 1)sort sam files, create bam files, index bam files
 
 2)add read groups
+
+$bash SRX590181.clean.bash
 ##
-$ bash SRX590181.mergesample.bash
 
 3)merge files within samples
+
+$ bash SRX590181.mergesample.bash
+##
 
 4)run local realignment on INDELs
 
