@@ -83,7 +83,7 @@ $bash SRX590181.clean.bash
 1)sort sam files, create bam files, index bam files
 
 2)add read groups
-
+##
 $ bash SRX590181.mergesample.bash
 
 3)merge files within samples
