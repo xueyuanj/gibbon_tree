@@ -83,11 +83,13 @@ $bash SRX590181.clean.bash
 
 2)add read groups
 
-3)run local realignment on INDELs
+3)merge files within samples
 
-4)remove PRC duplicates
+4)run local realignment on INDELs
 
-5)further clean with CleanSam
+5)remove PRC duplicates
+
+6)further clean with CleanSam
 
 ##
 ##
