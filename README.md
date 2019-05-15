@@ -12,6 +12,16 @@ $python parse.srr.py
 
 ##
 ##
+For the purpose of parallel process, the same scripts are running simultaneously for each sample (individual)
+
+The SRX IDs are in srxfile.name
+
+Generation of script copies: copyfile.bash
+
+Submission of jobs: submitjob.sh
+##
+##
+
 
 ## Trim adapter
 
