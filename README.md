@@ -97,6 +97,8 @@ java -jar picard.jar CreateSequenceDictionary R=GCF_000146795.2_Nleu_3.0_genomic
 2)add read groups
 
 $bash SRX590181.clean.bash
+
+--> SRR*.addgroup.bam
 ##
 
 3)merge files within samples
@@ -110,7 +112,15 @@ $ bash SRX590181.mergesample.bash
 
 6)further clean with CleanSam
 
+$ bash SRX590181.sampleclean.bash
+
+--> SRX*.realigned.rmdup.cleansam.bam
 ##
 ##
-## Generate .fasta files for each species
+## Generate consensus fasta files for each species
+
+##
+
+
+
 
