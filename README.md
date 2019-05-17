@@ -70,8 +70,12 @@ $ ./bwa index GCF_000146795.2_Nleu_3.0_genomic.fna
 
 ##Align with bwa mem
 
+
 $bash SRX590181.align.bash
 
+For future reference, use bwa mem -R $TAG $REF $R1 $R2 | samtools sort > bwa.bam
+
+Here the TAG='@RG\tID:xyz\tSM:Ebola\tLB:patient_100'
 
 ##
 ##
