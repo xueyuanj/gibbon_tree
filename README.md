@@ -118,8 +118,13 @@ $ bash SRX590181.sampleclean.bash
 
 7)merge by species, then split each into 100 files
 
+HLE: SRX590196, SRX590198
 
+NLE: SRX590181, SRX590192
 
+SSY: SRX590189, SRX590195
+
+$ qsub -A rua15_a_g_sc_default  hle.mergespecies.sh
 
 ##
 ##
