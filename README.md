@@ -116,7 +116,7 @@ $ bash SRX590181.sampleclean.bash
 
 --> SRX*.realigned.rmdup.cleansam.bam
 
-7) merge by species
+7)merge by species, then split each into 100 files
 
 
 
