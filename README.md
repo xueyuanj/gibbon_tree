@@ -126,6 +126,9 @@ SSY: SRX590189, SRX590195
 
 $ qsub -A rua15_a_g_sc_default  hle.mergespecies.sh
 
+Index the files, then split
+
+
 ##
 ##
 ## Generate consensus fasta files for each species
