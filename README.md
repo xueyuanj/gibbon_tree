@@ -115,11 +115,17 @@ $ bash SRX590181.mergesample.bash
 $ bash SRX590181.sampleclean.bash
 
 --> SRX*.realigned.rmdup.cleansam.bam
+
+7) merge by species
+
+
+
+
 ##
 ##
 ## Generate consensus fasta files for each species
 
-##
+##Merge sample by species (there are three species that each has two individuals)
 
 
 
