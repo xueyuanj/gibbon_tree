@@ -116,7 +116,7 @@ $ bash SRX590181.sampleclean.bash
 
 --> SRX*.realigned.rmdup.cleansam.bam
 
-7)merge by species, then split each into 100 files
+7)merge by species, then split each into smaller files
 
 HLE: SRX590196, SRX590198
 
@@ -127,6 +127,11 @@ SSY: SRX590189, SRX590195
 $ qsub -A rua15_a_g_sc_default  hle.mergespecies.sh
 
 Index the files, then split into different chromosomes (ignore the scaffolds)
+
+$ qsub -A rua15_a_g_sc_default  split.bam.hle.sh
+
+
+8) base quality score recalibration
 
 
 ##
