@@ -126,7 +126,7 @@ SSY: SRX590189, SRX590195
 
 $ qsub -A rua15_a_g_sc_default  hle.mergespecies.sh
 
-Index the files, then split
+Index the files, then split into different chromosomes (ignore the scaffolds)
 
 
 ##
