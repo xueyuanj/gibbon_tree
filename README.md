@@ -131,8 +131,9 @@ Index the files, then split into different chromosomes (ignore the scaffolds)
 $ qsub -A rua15_a_g_sc_default  split.bam.hle.sh
 
 
-8) base quality score recalibration
+8)base quality score recalibration
 
+$ qsub -A rua15_a_g_sc_default  basecalib.NC_019816.1.sh
 
 ##
 ##
