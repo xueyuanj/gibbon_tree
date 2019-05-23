@@ -120,7 +120,7 @@ $ bash SRX590181.sampleclean.bash
 ##
 
 
-7)merge by species, then split each into smaller files
+7)merge by species
 
 HLE: SRX590196, SRX590198
 
@@ -139,6 +139,8 @@ $ qsub -A rua15_a_g_sc_default  split.bam.hle.sh
 8)base quality score recalibration
 
 $ qsub -A rua15_a_g_sc_default  basecalib.NC_019816.1.sh
+
+--> hle.srx590196.srx590198.NC_019816.1.bqsr.bam
 
 ##
 ##
