@@ -144,7 +144,7 @@ $ qsub -A rua15_a_g_sc_default  basecalib.NC_019816.1.sh
 ##
 ## Generate consensus fasta files for each species
 
-##Merge sample by species (there are three species that each has two individuals)
+##
 
 
 
