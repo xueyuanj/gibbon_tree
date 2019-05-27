@@ -142,12 +142,16 @@ $ qsub -A rua15_a_g_sc_default  basecalib.NC_019816.1.sh
 
 --> hle.srx590196.srx590198.NC_019816.1.bqsr.bam
 
+##Checked the vcf file. Combined the chr 1 of all five species, run four sets (UnifiedGenotyper: 17, 50, Haplotypecaller: 17, 50). The default quality ones have output while the 50 ones do not.
+
 ##
 ##
 ## Generate consensus fasta files for each species
 
 ##
 
+$bash NC_019816.1.fasta.consensus.sh
 
+--> .NC_019816.1.bqsr.consensus.fa
 
 
