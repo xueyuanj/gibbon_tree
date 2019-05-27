@@ -152,6 +152,6 @@ $ qsub -A rua15_a_g_sc_default  basecalib.NC_019816.1.sh
 
 $bash NC_019816.1.fasta.consensus.sh
 
---> .NC_019816.1.bqsr.consensus.fa
+--> hle.NC_019816.1.bqsr.consensus.fa
 
 
