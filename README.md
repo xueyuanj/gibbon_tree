@@ -132,6 +132,12 @@ $ qsub -A rua15_a_g_sc_default  hle.mergespecies.sh
 
 Index the files, then split into different chromosomes (ignore the scaffolds for now)
 
+First get the chromosomes and scaffolds
+
+/samtools view -H  SRR1390842.bam |awk -F"\t" '/@SQ/{print $2}' |  cut -d":" -f2|sort|uniq > scaffolds.gibbon.txt
+
+Next select either chromosome/scaffolds
+
 $ qsub -A rua15_a_g_sc_default  split.bam.hle.sh
 
 ##
